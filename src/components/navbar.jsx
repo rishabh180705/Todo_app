@@ -52,7 +52,7 @@ function Navbar() {
         <ul className="flex flex-col md:flex-row items-center md:space-x-6">
           <li>
             <NavLink
-              to="/"
+              to="/Todo_app"
               onClick={closeMenu}
               className={({ isActive }) =>
                 `block py-2 pr-4 pl-3 duration-200 ${
