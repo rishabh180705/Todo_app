@@ -27,7 +27,7 @@ function App() {
         <Navbar /> {/* Include your Navbar for navigation */}
         <div className="App">
           <Routes>
-            <Route path="/Todo_app" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/signin" element={<SignIn />} />
             <Route path="/signup" element={<SignUp />} />
